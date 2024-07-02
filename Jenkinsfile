@@ -3,7 +3,7 @@ pipeline {
           environment {
                 PYTHON_HOME = 'C:/Users/a7200/AppData/Local/Programs/Python/Python312'
                 PIP_HOME = 'C:\\Users\\a7200\\AppData\\Local\\Microsoft\\WindowsApps' 
-                PATH = "${env.PYTHON_HOME}\\;${env.PIP_HOME}\\;${env.PATH}"
+                PATH = "${env.PYTHON_HOME}\\;${env.PIP_HOME};${env.PATH}"
           }
     stages {
         stage('Build') {
